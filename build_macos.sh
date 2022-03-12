@@ -57,6 +57,10 @@ cd ../..
 # Copy dawn.json
 cp dawn/dawn.json build/lib
 
+# Copy metafiles
+cp dawn/LICENSE build
+cp dawn/README.md build
+
 # Clean up build directory
 rm -rf build/lib/arm64
 rm -rf build/lib/x64
